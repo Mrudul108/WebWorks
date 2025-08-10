@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="toggleGif()">
+    <div class="screen">
+        <img class="screenImg hidden" src="images/start.gif" alt="">
+        <div class="container1">
+            <div class="left">
+                <div class="userImg">
+                    <img src="" alt="">
+                </div>
+                <div class="userBtns hidden">
+                    <button>Stone</button>
+                    <button>Paper</button>
+                    <button>Sciossor</button>
+                </div>
+            </div>
+            <div class="scoreAndRoundResult">
+                <div class="subContainer">
+                    <div class="score">
+                        <div class="userPanel">
+
+                            <div class="userScore">
+                                
+                            </div>
+                        </div>
+                        <div class="vsImg hidden">
+                            <img src="images/versus.png" alt="versus">
+                        </div>
+                        <div class="compScore">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="roundResult">
+                    
+                </div>
+                <div class="startBtn">
+                    <button>Start</button>
+                </div>
+            </div>
+            <div class="right">
+                <div class="compImg">
+                    <img src="" alt="">
+                </div>
+                <div class="compBtns hidden">
+                    <button disabled>Stone</button>
+                    <button disabled>Paper</button>
+                    <button disabled>Sciossor</button>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="result">
+                
+            </div>
+            <div class="resetNotif">
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

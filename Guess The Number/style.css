@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 1s ease;
+    user-select: none;
+}
+
+body {
+    background-color: #2e7aed; /* Light solid blue background */
+}
+
+.heading {
+    margin: 3% 0 3% 0;
+    text-align: center;
+    color: white;
+}
+
+.heading h1 {
+    font-size: 3rem;
+}
+
+.gameScreen {
+    border: 2px solid #003366;
+    height: 70vh;
+    margin: 0 25px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #72b3ff; /* Solid white background */
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    width: 45%;
+    /* color: #003366; */
+    text-align: right;
+}
+
+.text h2 {
+    font-weight: 500;
+}
+
+.getNumber {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.numFields label {
+    font-size: 1.5rem;
+    /* color: #003366; */
+}
+
+.numFields input {
+    font-size: 1.5rem;
+    width: 120px;
+    padding: 5px;
+    border: 2px solid #003366;
+    border-radius: 8px;
+    outline: none;
+    background-color: #ffffff;
+    /* color: #003366; */
+}
+
+.btn {
+    align-self: flex-end;
+}
+
+.btn button {
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #004080;
+}
+
+.hintOResult {
+    text-align: center;
+    width: 25%;
+    /* background-color: #cce0ff; Soft solid blue for hint area */
+    /* padding: 15px; */
+    /* border-radius: 10px; */
+    color: #003366;
+}

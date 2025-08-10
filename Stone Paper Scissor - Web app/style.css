@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease;
+    user-select: none;         /* Prevents text selection */
+    -webkit-user-select: none; /* For Safari */
+    -ms-user-select: none;     /* For IE/Edge */
+}
+
+body {
+    width: 95vw;
+    height: 95vh;
+    margin: 1% auto;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.screenImg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: -2;
+}
+
+.container1 {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userImg,
+.compImg {
+    height: 70%;
+    width: 80%;
+    margin: 10px 0;
+    border: 5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userImg img,
+.compImg img {
+    height: 80%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.userBtns button,
+.compBtns button {
+    width: 25%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: large;
+    border: none;
+    background-color: #e0cc6e;
+}
+
+.userBtns button, .startBtn button {
+    cursor: pointer;
+}
+
+.userBtns,
+.compBtns {
+    width: 100%;
+    height: 15%;
+    margin: 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.styleScore {
+    border: 1px solid red;
+    padding: 30px;
+    margin: 5px;
+    height: 25px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roundResult {
+    text-align: center;
+    margin-top: 15px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.startBtn {
+    margin: 45% 0;
+    text-align: center;
+}
+.startBtn Button{
+    width: 87%;
+    padding: 15px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(141, 250, 250);
+}
+
+.vsImg {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    /* overflow: hidden; */
+    display: inline-block;
+    transition: all 1s ease-in-out;
+}
+
+.scoreAndRoundResult {
+    width: 380px;
+    height: 130px;
+
+}
+
+.subContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vsImg img {
+    width: 100%;
+}
+
+.container2 {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    position: relative;
+}
+
+.result {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+/* Hiddens */
+
+.vsImg.hidden {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.startBtn.hidden, .startBtn > button.hidden {
+    margin: -20% 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s ease;
+}
+
+.userBtns.hidden, .compBtns.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s ease-out;
+}
+
+.transitionNone {
+    transition: none;
+}
+
+.hidden {
+    opacity: 0;
+}
