@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "68c29ff333530087d16aaf57"
+  },
+  "questionId": {
+    "$oid": "68c29fd933530087d16aaf4e"
+  },
+  "content": "Devala mahit",
+  "author": "Devacha doot",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-11T10:09:55.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3be65dbbd654c57aeb85d"
+  },
+  "questionId": {
+    "$oid": "68c3be33dbbd654c57aeb854"
+  },
+  "content": "I have some important notes regarding to your projectm I will provide it to you.",
+  "author": "Sameer Chaughule",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T06:32:05.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47213891b4e8495baf9e2"
+  },
+  "questionId": {
+    "$oid": "68c47137891b4e8495baf9b7"
+  },
+  "content": "answer 1",
+  "author": "gaurav",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T19:18:43.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47221891b4e8495baf9e6"
+  },
+  "questionId": {
+    "$oid": "68c47137891b4e8495baf9b7"
+  },
+  "content": "answer 2",
+  "author": "neel",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T19:18:57.144Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c4725e891b4e8495baf9eb"
+  },
+  "questionId": {
+    "$oid": "68c47137891b4e8495baf9b7"
+  },
+  "content": "answer 3",
+  "author": "abc",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T19:19:58.398Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47268891b4e8495baf9ef"
+  },
+  "questionId": {
+    "$oid": "68c47137891b4e8495baf9b7"
+  },
+  "content": "haha",
+  "author": "hehe",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T19:20:08.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47270891b4e8495baf9f4"
+  },
+  "questionId": {
+    "$oid": "68c47137891b4e8495baf9b7"
+  },
+  "content": "huhu ",
+  "author": "huhu",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T19:20:16.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47c9a831633d0d46e3236"
+  },
+  "questionId": {
+    "$oid": "68c4627ccce3ec2309fc5aab"
+  },
+  "content": "a1",
+  "author": "u1",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T20:03:38.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47c9e831633d0d46e3239"
+  },
+  "questionId": {
+    "$oid": "68c4627ccce3ec2309fc5aab"
+  },
+  "content": "a2",
+  "author": "u2",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T20:03:42.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47cab831633d0d46e323c"
+  },
+  "questionId": {
+    "$oid": "68c4627ccce3ec2309fc5aab"
+  },
+  "content": "a3",
+  "author": "u3",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T20:03:55.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47cb0831633d0d46e323f"
+  },
+  "questionId": {
+    "$oid": "68c4627ccce3ec2309fc5aab"
+  },
+  "content": "a4",
+  "author": "u4",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T20:04:00.772Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c47cb9831633d0d46e3243"
+  },
+  "questionId": {
+    "$oid": "68c4627ccce3ec2309fc5aab"
+  },
+  "content": "a5",
+  "author": "u5",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-12T20:04:09.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68cff021168ce196b5824ff3"
+  },
+  "questionId": {
+    "$oid": "68c50ec47800b135dfa5de32"
+  },
+  "content": "abc",
+  "author": "xyz",
+  "tags": [],
+  "createdAt": {
+    "$date": "2025-09-21T12:31:29.118Z"
+  },
+  "__v": 0
+}]
