@@ -1,0 +1,113 @@
+* {
+    margin: 0;padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:  blueviolet;
+}
+.cotnainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    height: 75vh;
+    /* border: 2px solid black; */
+    background-color: rgb(253, 245, 230);
+}
+.left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+}
+.left h2 {
+    font-size: 3.5rem;
+    /* border: 1px solid; */
+}
+.left hr {
+    width: 25%;
+}
+.credentials {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 20px;
+}
+.credentials div {
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1%;
+}
+.credentials div:last-child {
+    border: none;
+}
+.forgotPassBtn button {
+    color: blueviolet;
+}
+.credentials input {
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    background: transparent;
+    color: gray;
+}
+.credentials img {
+    width: 7%;
+    margin-bottom: 1%;
+}
+.credentials button {
+    margin: 1%;
+    padding: 1%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.loginBtn {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginBtn button {
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(114, 60, 164);
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.signUpPrompt a{
+    text-decoration: none;
+    color: rgb(61, 70, 119);
+}
+.signUpPrompt {
+    width: 75%;
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+.right img {
+    width: 118%;
+    margin-left: 4.1%;
+    height: auto;
+}

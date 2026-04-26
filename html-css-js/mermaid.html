@@ -1,0 +1,41 @@
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
+<div class="mermaid">
+  flowchart LR
+    title["Hospital Management System"]
+
+    subgraph System["Hospital Management System"]
+        UC1(("Register Patient"))
+        UC2(("Manage Appointment"))
+        UC3(("Request Appointment"))
+        UC4(("View Patient Record"))
+        UC5(("Update Medical History"))
+        UC6(("Prescribe Treatment"))
+        UC7(("Generate Bill"))
+        UC8(("Make Payment"))
+        UC9(("Check Schedule"))
+    end
+
+    Patient --> UC3
+    Patient --> UC8
+    Patient --> UC4
+
+    Receptionist --> UC1
+    Receptionist --> UC2
+    Receptionist --> UC7
+    Receptionist --> UC9
+
+    Doctor --> UC4
+    Doctor --> UC5
+    Doctor --> UC6
+    Doctor --> UC9
+
+    BillingStaff --> UC7
+
+    UC7 -.-> UC8
+    UC2 -.-> UC3
+
+</div>
